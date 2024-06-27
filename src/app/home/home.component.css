@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* main banner  */
+.main_img {
+    background-image: url("../../assets/images/banner_main_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.special_price {
+    
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: #FCA311;
+}
+.Diamond_Jewellery {
+    font-family: Cuprum;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF;
+}
+.baner_main_paramain {
+    margin-top: 16px;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    color: #D9D9D9;
+}
+.btn {
+    border-radius: 0px;
+    padding: 8px, 16px, 8px, 16px;
+    color: #000000;
+    background-color: #FCA311;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+}
+.margin_top_botom{
+    padding-top: 200px;
+    padding-bottom: 370px;
+}
+/* navbar  */
+.navbar {
+    margin-top: 24px;
+    background-color: #FFFFFF;
+    transition: all 0.7s ease; 
+    /* transition: width 0.4s ease, margin-top 0.4s ease, top 0.4s ease; */
+}
+
+.navbar-expanded {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar-scrolled {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.nav-item {
+    text-align: right;
+    padding-left: 40px;
+}
+
+.active {
+    color: #FCA311 !important;
+    font-weight: 700 !important;
+}
+
+.nav-link {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #707070;
+}
+
+.container_width80 {
+    width: 90%;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        text-align: left;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: left;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding-left: 0px !important;
+    }
+
+    .nav-link {
+        text-align: left;
+        display: block;
+        width: 100%;
+    }
+}
+
+/* about section  */
+.top_overlay{
+    position: relative;
+    z-index: 1;
+    margin-top: -90px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.about_maindiv {
+    position: absolute;
+    margin-top: 130px;
+}
+.glory_main_heding1 {
+    font-family: Cuprum;
+    font-size: 36px;
+    font-weight: 700;
+    color: #31313B;
+    text-align: center;
+}
+.about_parent_section {
+    position: relative;
+}
+.back_white_redius_right {
+    height: 910px;
+    /* height: 749px; */
+    background-color: #FFFFFF;
+    border-top-right-radius: 100px;
+}
+.back_white_redius_left {
+    height: 910px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 100px;
+}
+.about_img1{
+    padding-top: 300px;
+}
+.about_img2{
+    padding-top: 300px;
+}
+.about_img3{
+    display: none;
+}
+.popin_font {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #8D8D8D;
+}
+.about_contant_para {
+    position: absolute;
+    margin-top: 600px;
+    /* z-index: 999px; */
+}
+/* jewellery coolections  */
+.jc_maindiv {
+    /* text-align: center; */
+    margin-top: 150px;
+}
+
+.jewellery_collection_heading {
+    font-family: Cuprum;
+    font-size: 32px;
+    font-weight: 700;
+    color: #31313B;
+    text-align: center;
+}
+.jewellery_collection_para {
+    margin-top: 15%;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #8D8D8D;
+}
+.Jewellery_Collection_section{
+    margin-top: 80px;
+}
+/* main headings and paragraphs  */
+.glory_main_heding {
+    margin-top: 100px;
+    font-family: Cuprum;
+    font-size: 36px;
+    font-weight: 700;
+    color: #31313B;
+    text-align: center;
+}
+
+.glory_main_paramain {
+    margin-top: 16px;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #8D8D8D;
+}
+
+/* contact us  */
+.card_contact {
+    background-color: #101010;
+    height: 263px;
+}
+
+.contact_maindiv {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_image {
+    margin-top: 24px;
+    width: 40px;
+    height: 40px;
+}
+
+.cno_img_name {
+    margin-top: 16px;
+    font-family: Cuprum;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.support_team {
+    margin-top: 24px;
+    font-weight: 400;
+    padding: 0px 6px 0px 6px;
+    font-size: 12px;
+    text-align: center;
+    color: #EAEAEA;
+    font-family: DM Sans;
+}
+
+.quick_call {
+    margin-top: 20px;
+    font-weight: 400;
+    padding: 0px 7px 0px 7px;
+    font-size: 14px;
+    text-align: center;
+    color: #EAEAEA;
+    font-family: DM Sans;
+}
+
+.quick_call_contact2 {
+    font-weight: 400;
+    padding: 0px 6px 0px 6px;
+    font-size: 14px;
+    text-align: center;
+    color: #EAEAEA;
+    font-family: DM Sans;
+}
+
+/* footer gold  */
+footer {
+    background-color: #F5F5F5;
+    margin-top: 100px;
+}
+
+.footer_logo {
+    padding-top: 40px;
+}
+
+.footer_nav {
+    padding-top: 55px;
+    font-weight: 400;
+    font-family: DM Sans;
+    font-size: 14px;
+    color: #31313B;
+}
+
+.follow_us_maindiv {
+    padding-top: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_followus {
+    width: 24px;
+    height: 24px;
+}
+
+.payments {
+    padding-top: 42px;
+}
+
+.visa {
+    width: 30.59px;
+    height: 9.9px;
+}
+
+.master {
+    width: 30.59px;
+    height: 18px;
+}
+
+.paytm {
+    width: 30.59px;
+    height: 9.9px;
+}
+
+.rupay {
+    width: 30.59px;
+    height: 9px;
+}
+
+.cod {
+    width: 35.99px;
+    height: 12.6px;
+}
+
+.paypal {
+    width: 30.59px;
+    height: 9px;
+}
+
+.american_express {
+    width: 30.59px;
+    height: 9.9px;
+}
+
+.designed_by {
+    padding-top: 50px;
+    font-family: DM Sans;
+    font-size: 14px;
+
+    font-weight: 400;
+    text-align: right;
+    color: #31313B;
+}
+
+a,
+.xyug {
+    text-decoration: none;
+    color: #31313B;
+}
+
+.footer_space_bottom {
+    padding-bottom: 34px;
+}
+
+.display_none2 {
+    display: none;
+}
+
+@media screen and (max-width:320px) {
+    .display_none1 {
+        display: none;
+    }
+
+    .display_none2 {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .footer_nav1 {
+        font-weight: 400;
+        font-family: DM Sans;
+
+        font-size: 14px;
+        color: #555555;
+    }
+
+    .visa {
+        width: 36.59px;
+        height: 14.9px;
+    }
+
+    .master {
+        width: 36.59px;
+        height: 23px;
+    }
+
+    .paytm {
+        width: 36.59px;
+        height: 14.9px;
+    }
+
+    .rupay {
+        width: 36.59px;
+        height: 14px;
+    }
+
+    .cod {
+        width: 40.99px;
+        height: 17.6px;
+    }
+
+    .paypal {
+        width: 35.59px;
+        height: 14px;
+    }
+
+    .american_express {
+        width: 36.59px;
+        height: 14.9px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .designed_by {
+        text-align: center !important;
+    }
+}
+
+/* about  */
+@media screen and (min-width:500px) and (max-width:768px){
+    .jewellery_collection_para {
+        /* position: absolute !important; */
+        margin-top: 0px !important;
+    }
+    .Jewellery_Collection_section{
+        margin-top: 0px !important;
+    }
+}
+@media screen and (max-width:500px){
+    .jewellery_collection_para {
+        /* position: absolute !important; */
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+    .Jewellery_Collection_section{
+        margin-top: 0px !important;
+    }
+    .about_maindiv{
+        margin-top: 80px;
+    }
+    .about_img3 {
+        padding-top: 50px !important;
+        display: block !important;
+    }
+    .about_img2 {
+        display:none !important;
+    }
+    /* .back_white_redius_right{
+        height: inherit !important;
+    } */
+
+ 
+    .jc_maindiv{
+        margin-top: 40px !important;
+    }
+    .back_white_redius_left{
+        height: inherit !important;
+    }
+} 
